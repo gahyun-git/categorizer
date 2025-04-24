@@ -56,8 +56,8 @@ def classify(market_id: str, product_text: str, image_desc: str = None) -> dict:
 
     # 카테고리 선택 프롬프트 생성하고 잼민이 ㄱㄱ 
     # prompt = f"상품 정보: \"{combined}\"\n아래 번호만 골라주세요:\n"
-    # for idx, text in enumerate(candidates,1):
-    # prompt += f"{idx}) {text}\n"
+    # for idx, full_path in enumerate(candidates,1):
+    # prompt += f"{idx}) {full_path}\n"
     
     # choice = gemini_fallback(prompt)
 

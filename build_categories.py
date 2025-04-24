@@ -35,14 +35,13 @@ for xlsx in EXCEL_DIR.glob("*.xlsx"):
 
         all_records.append({
             "id":        cat_id,
-            "text":      full_path,
             "full_path": full_path
         })
 
 data = {
     "coupang": all_records,
     "naver":   [],
-    "others":  [{"id":"others_0","text":"기타","full_path":"기타>기타"}]
+    "others":  [{"id":"others_0", "full_path":"기타>기타"}]
 }
 
 OUTPUT_JSON.parent.mkdir(exist_ok=True, parents=True)
