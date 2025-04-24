@@ -1,0 +1,38 @@
+# 가상환경
+.venv/
+venv/
+ENV/
+env/
+
+# Python 바이트코드
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 환경변수 파일
+.env
+.env.*
+
+# macOS
+.DS_Store
+
+# 로그
+*.log
+
+# 빌드/배포 산출물
+build/
+dist/
+*.egg-info/
+
+# IDE 설정
+.vscode/
+.idea/
+
+# 데이터 파일 (엑셀 원본 및 생성된 JSON)
+app/__pycache__/
+data/excels/
+data/categories.json
+
+# 기타
+pip-log.txt
+pip-delete-this-directory.txt 
